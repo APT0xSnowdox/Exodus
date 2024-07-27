@@ -3,7 +3,7 @@
 
 # Exodus - Python Code Obfuscation Tool
 
-![Exodus Logo](Screenshot 2024-07-27 at 3.02.52 PM.png)
+!(Screenshot 2024-07-27 at 3.02.52 PM.png)
 
 Exodus is a powerful and flexible Python code obfuscation tool designed to help protect your Python scripts from reverse engineering and unauthorized use. It provides a range of obfuscation techniques that make it harder to understand and modify your code, ensuring your intellectual property remains secure.
 
