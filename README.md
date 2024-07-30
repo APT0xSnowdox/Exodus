@@ -1,10 +1,6 @@
-# Exodus
----
-
 # Exodus - Python Code Obfuscation Tool
 
-
-<img width="1121" alt="Screenshot 2024-07-27 at 3 02 52 PM" src="https://github.com/user-attachments/assets/94c0e05e-4c89-41b4-8c9d-796ecda2754d">
+<img width="1121" src="https://github.com/user-attachments/assets/94c0e05e-4c89-41b4-8c9d-796ecda2754d">
 
 Exodus is a powerful and flexible Python code obfuscation tool designed to help protect your Python scripts from reverse engineering and unauthorized use. It provides a range of obfuscation techniques that make it harder to understand and modify your code, ensuring your intellectual property remains secure.
 
@@ -22,7 +18,7 @@ Exodus is a powerful and flexible Python code obfuscation tool designed to help 
 To install Exodus, simply clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/Exodus.git
+git clone https://github.com/APT0xSnowdox/Exodus.git
 cd Exodus
 pip install -r requirements.txt
 ```
@@ -40,6 +36,12 @@ Additional options are available to customize the obfuscation process. Use the `
 ```bash
 python exodus.py --help
 ```
+
+## XOR Key
+
+User can specify their own XOR key within a valid range (0 to 255)
+
+Use `-k` or `--key`: XOR key for obfuscation (default: 127).
 
 ## Example
 
@@ -66,7 +68,3 @@ Exodus is intended for educational purposes and the protection of your own intel
 ## Acknowledgments
 
 - Thanks to all contributors and the open-source community for their support and contributions.
-
----
-
-Make sure to replace `path/to/your/image.png` with the actual path or URL of the image you want to include in your `README.md` file. The image can be hosted on GitHub itself (in the repository) or on an external service.
